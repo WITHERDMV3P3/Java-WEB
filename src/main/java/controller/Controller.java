@@ -44,6 +44,7 @@ public class Controller extends HttpServlet {
 //		System.out.println(request.getParameter("nome"));
 //		System.out.println(request.getParameter("fone"));
 //		System.out.println(request.getParameter("email"));
+		
 		//setar as variaveis JavaBeans
 		javaBeans.setNome(request.getParameter("nome"));
 		javaBeans.setFone(request.getParameter("fone"));
